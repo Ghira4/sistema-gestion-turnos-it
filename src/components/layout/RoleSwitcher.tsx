@@ -28,13 +28,11 @@ interface RoleSwitcherProps {
 export default function RoleSwitcher({ roles, activeRole, onRoleChange }: RoleSwitcherProps) {
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <button className="flex items-center gap-2 text-sm">
-          <Badge variant="secondary" className="cursor-pointer">
-            {roleLabels[activeRole]}
-            <ChevronDown className="w-3 h-3 ml-1" />
-          </Badge>
-        </button>
+      <DropdownMenuTrigger className="flex items-center gap-2 text-sm outline-none">
+        <Badge variant="secondary" className="cursor-pointer">
+          {roleLabels[activeRole]}
+          <ChevronDown className="w-3 h-3 ml-1" />
+        </Badge>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
         {roles.map((role) => (
