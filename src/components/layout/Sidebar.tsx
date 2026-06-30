@@ -10,6 +10,7 @@ import {
   TrendingDown,
   BarChart2,
   Users,
+  Building2,
   LogOut,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -24,6 +25,7 @@ const navItems = [
   { href: '/ganancias', label: 'Ganancias', icon: TrendingUp, roles: ['admin', 'jefe'] },
   { href: '/gastos', label: 'Gastos', icon: TrendingDown, roles: ['admin', 'jefe'] },
   { href: '/informes', label: 'Informes', icon: BarChart2, roles: ['admin', 'jefe', 'supervisor'] },
+  { href: '/consulados', label: 'Consulados', icon: Building2, roles: ['admin', 'jefe', 'supervisor'] },
   { href: '/usuarios', label: 'Usuarios', icon: Users, roles: ['admin', 'jefe'] },
 ]
 

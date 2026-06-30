@@ -29,6 +29,7 @@ export interface Consulado {
   nombre: string
   ciudad: string
   pais: string
+  activo: boolean
   created_at: string
 }
 
