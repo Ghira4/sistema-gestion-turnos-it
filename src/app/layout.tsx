@@ -11,7 +11,6 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "Turnos IT - Sistema de Gestión",
   description: "Sistema de gestión interna de Turnos Consulares IT",
-  manifest: "/manifest.json",
 };
 
 export const viewport: Viewport = {
